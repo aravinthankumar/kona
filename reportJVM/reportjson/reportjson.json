@@ -1,0 +1,85 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "To validate the login functionality with invalide user name and passsword",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-facebook-login-application;to-validate-the-login-functionality-with-invalide-user-name-and-passsword",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3123073300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user should be in facebook login page",
+            "match": {
+              "location": "FbLogin.the_user_should_be_in_facebook_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 225625500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user has to fill ibnvalid username and password",
+            "match": {
+              "location": "FbLogin.the_user_has_to_fill_ibnvalid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 91948500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user has to click login button",
+            "match": {
+              "location": "FbLogin.the_user_has_to_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7407089600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user should navigate the invalide login page",
+            "match": {
+              "location": "FbLogin.the_user_should_navigate_the_invalide_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the login functionality of facebook login application",
+    "description": "",
+    "id": "to-validate-the-login-functionality-of-facebook-login-application",
+    "keyword": "Feature",
+    "uri": "C:/Users/aravind/eclipse-workspace/cucumber/src/fb.feature",
+    "tags": [
+      {
+        "name": "@sanity",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
